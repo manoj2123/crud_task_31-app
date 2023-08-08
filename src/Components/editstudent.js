@@ -34,7 +34,7 @@ const updateStudent = async() => {
       experience
      }
 
-     const response = await fetch (`https://63fde41c19f41bb9f6562d7f.mockapi.io/student/${idx}`,{
+     const response = await fetch (`https://64d0f904ff953154bb79cc22.mockapi.io/student/${idx}`,{
        method : "PUT",
        body : JSON.stringify(updatedObj),
        headers : {

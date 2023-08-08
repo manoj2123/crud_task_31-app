@@ -13,7 +13,7 @@ export const TeacherDetails = ({teachersData,setTeachersData}) => {
     const deleteteachersData = async(teacherId)=>{
         try {
             
-          const response = await fetch(`https://63fde41c19f41bb9f6562d7f.mockapi.io/teacher/${teacherId}`,{
+          const response = await fetch(`https://64d0f904ff953154bb79cc22.mockapi.io/teacher/${teacherId}`,{
             method:"DELETE"
           });
 
